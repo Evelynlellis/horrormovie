@@ -1,0 +1,233 @@
+<!DOCTYPE html> <!--especifica o documento-->
+<html lang="pt-br"> <!--dioma da pagina-->
+<head> <!--informações gerais do documento-->
+    <meta charset="UTF-8"> <!--a tag "meta" descreve o conteudo do site-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icons8-horror-16.png" type="image/x-icon"> <!--para adicionar um favicon  -->
+    <!--link rel> define a ligação do arquivo entre o comando escrito-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Esse link está permitindo que o bootstrap e seus comandos sejam utilizados no site-->
+    <link rel="stylesheet" href="css/style.css"> <!--para o arquivo css seja utilizado na página-->
+    
+    <title>Horror movies and series</title> <!--título da pagina-->
+
+
+</head> <!--ta encerrando-->
+<body>
+  <div class="nome text-center"> <!--essa class foi usada para o texto ficar no centro-->
+    <h1>HORROR MOVIES AND SERIES</h1>
+  </div> <!-- o div, indica divisão dos elementos-->
+
+  <!--ultização do bootstrap para a barra de pesquisa-->
+  <nav class="navbar navbar-expand-lg navbar-light cor1"> <!--secão que aponta para outras paginas-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> <!-- tag para que seja adicionado botons-->
+    <a class="navbar-brand" href="#">HORROR</a>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0"> <!-- a tag ul serve para criar uma lista-->
+        <li class="nav-item active"><!-- a tag li para por os  elementos dentro da lista-->
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item"> <!--o class é para  estilizar os elementos-->
+          <a class="nav-link" href="#">Filmes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Series</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0"> <!--indicar um tipo de formulario, na qual vai ser encaminhada outros documentos -->
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> <!--para que os dados coletados possa ser transportado para outras páginas -->
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+  </nav>
+  <br> <br> <!-- quebra de linha-->
+</div>
+<br> <br>
+
+  <div class="container bg-light"> <!-- "bg-...." é para indicar a cor-->
+    <h2>FILMES</h2>
+  </div>
+
+  <div class="container"><!--agrupa elementos, centraliza, perimite espaçamento -->
+  <div class="row"> <!--o "row" está  envolvendo colunas e alinhando para á esquerda  -->
+  <div class="col-md-3"><!--define diferentes grades/grids para seu elemento, com base no tamanho do display do usario -->
+  <img src="img/exorcista.jpg" class="img-fluid" id="teste3" alt=""> 
+  <h4>Em Georgetown, Washington, uma atriz vai gradativamente tomando consciência que a sua filha de doze anos está tendo um comportamento completamente assustador. Deste modo, ela pede ajuda a um padre, que também um psiquiatra, e este chega a conclusão de que a garota está possuída pelo demônio. Ele solicita então a ajuda de um segundo sacerdote, especialista em exorcismo, para tentar livrar a menina desta terrível possessão.</h4>
+  <!--está sendo colocado imagem-->
+  </div>
+  <div class="col-md-3">
+  <img src="img/canibais.jpg" class="img-fluid" id="teste3"alt=""> 
+  <h4>Um grupo de ativistas americanos decidem ir até a Amazônia para tentar proteger uma tribo que está desaparecendo. Durante o percurso, o avião sofre problemas e eles caem no meio da selva. Eles são resgatados e presos como reféns da tribo que desejavam salvar.</h4>
+  <!--id para que seja modificado elemento especifico-->
+  </div>
+  <div class="col-md-3">
+  <img src="img/hereditario.jpg" class="img-fluid" id="teste3" alt="">
+  <h4>Após a morte da reclusa avó, a família Graham começa a desvendar algumas coisas. Mesmo após a partida da matriarca, ela permanece como se fosse uma sombra sobre a família, especialmente sobre a solitária neta adolescente, Charlie, por quem ela sempre manteve uma fascinação não usual. Com um crescente terror tomando conta da casa, a família explora lugares mais escuros para escapar do infeliz destino que herdaram.</h4>
+  </div>
+  <div class="col-md-3">
+  <img src="img/invocação.jpg" class="img-fluid" id="teste3" alt="">
+  <h4>Um dos casos mais sensacionais de seus arquivos começa com a luta pela alma de um garoto e depois os leva para além de qualquer coisa que já tenham visto. Esse caso marcou a primeira vez na história dos Estados Unidos em que um suspeito de assassinato alegou possessão demoníaca como defesa.</h4>
+  </div>
+
+</div>
+</div>
+
+
+<!--repetição das tags anteriores-->
+  
+
+<div class="container bg-dark"> 
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<img src="img/ouija.jpg" class="img-fluid" id="teste3" alt="">
+<h4>Filme baseado no jogo de mesmo nome, utilizado para estabelecer comunicação com espíritos. De acordo com as regras do jogo, os espíritos fazem uma pedra se mover sobre letras em um tabuleiro, compondo frases destinadas aos jogadores. Na trama, uma adolescente deve lidar com a morte da irmã, e usa Ouija para falar com ela.</h4>
+</div>
+<div class="col-md-3">
+<img src="img/oie.jpg" class="img-fluid" id="teste3" alt="">
+<h4>Duas irmãs distantes cujo reencontro é interrompido por demônios devoradores de carne que aparecem de repente, levando-as a uma batalha primal pela sobrevivência, enfrentando a versão mais assustadora que se possa imaginar de uma família.</h4>
+
+</div>
+<div class="col-md-3">
+<img src="img/sono.jpg" class="img-fluid"id="teste3" alt="">
+<h4>A psicóloga criminosa Kate Fuller é designada para o assassinato de um homem que aparentemente foi estrangulado durante o sono por sua esposa e a única testemunha é sua filha de oito anos, Sophie. Enquanto Kate mergulha no mistério de um antigo demônio que mata as pessoas durante o sono, ela experimenta os mesmos sintomas petrificantes de todas as vítimas e espirais anteriores, através de um arrepiante pesadelo para salvar a si mesma e a Sophie antes que ela adormeça novamente.</h4>
+</div>
+<div class="col-md-3">
+<img src="img/X.jpg" class="img-fluid"  id="teste3"alt="">
+<h4>Em 1979, um grupo de jovens cineastas se propôs a fazer um filme adulto na zona rural do Texas, mas quando seus solitários e idosos anfitriões os pegam em flagrante, o elenco se vê lutando por suas vidas.</h4>
+</div>
+
+</div>
+</div>
+
+<div class="container">
+  <div class="row"> 
+  <div class="col-md-3">
+  <img src="img/velha.jpg" class="img-fluid" id="teste3" alt=""> 
+  <h4>Presa na fazenda isolada de sua família, Pearl deve cuidar de seu pai doente sob o olhar amargo e autoritário de sua mãe devota. Desejando uma vida glamourosa como ela viu nos filmes, as ambições, tentações e repressões de Pearl colidem, na impressionante história de origem inspirada em technicolor da icônica vilã de X.</h4>
+  </div>
+  <div class="col-md-3">
+  <img src="img/it.jpg" class="img-fluid" id="teste3" alt="">
+  <h4>Na cidade de Derry, no Maine, sete jovens se juntam para combater uma criatura sobrenatural que está assombrando a sua cidade por séculos. Chamado de Pennywise – O Palhaço Dançarino, a Coisa é um monstro de força absoluta que toma a forma dos medos mais horrorosos das pessoas. Ameaçados por seus piores pesadelos, a única maneira dos jovens amigos sobreviverem à Coisa é se continuarem juntos.</h4>
+  </div>
+  <div class="col-md-3">
+  <img src="img/sii.jpg" class="img-fluid" id="teste3" alt="">
+  <h4>Clarice Starling, uma das melhores estudantes da academia de treinamento do FBI. Jack Crawford quer que Clarice entreviste o Dr. Hannibal Lecter, um psiquiatra brilhante e também um psicopata violento, que cumpre prisão perpétua por vários atos de assassinato e canibalismo. Crawford acredita que Lecter pode ter uma visão em um caso e que Starling, como uma mulher jovem e atraente, pode ser a isca para atraí-lo.</h4>
+  </div>
+  <div class="col-md-3">
+  <img src="img/bruxa.jpg" class="img-fluid" id="teste3" alt="">
+  <h4>O casal William e Katherine leva uma vida cristã com suas cinco crianças em uma comunidade extremamente religiosa, até serem expulsos do local por sua fé diferente daquela permitida pelas autoridades. A família passa a morar num local isolado, à beira do bosque, sofrendo com a escassez de comida. Um dia, o bebê recém-nascido desaparece. Enquanto buscam respostas, cada membro da família descobre seus piores medos.</h4>
+  </div>
+</div>
+
+<div class="container bg-dark"> 
+</div>
+
+
+
+
+
+
+
+<div class="container bg-light">
+  <h2>SÉRIES</h2>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+    <img src="img/horaS.jpg" class="img-fluid" id="teste3"  alt="">
+    <h4>Lucy acorda exatamente às 3h33 todas as noites. Nada faz sentido na vida dela há muito tempo, mas as respostas estão lá fora, em algum lugar, no fim de uma série de assassinatos brutais.</h4>
+</div>
+<div class="col-md-3">
+    <img src="img/irmaS.jpg" class="img-fluid"  id="teste3">
+    <h4>Duas irmãs descobrem que os pais participaram de um ritual com um desfecho fatal. Agora, elas têm que enfrentar uma nova realidade — e o sobrenatural.</h4>
+</div>
+<div class="col-md-3">
+    <img src="img/ssssss.jpg" class="img-fluid" id="teste3" alt="">
+    <h4>A mãe de Sam e Dean Winchester faleceu há 20 anos em um misterioso acidente envolvendo forças sobrenaturais obscuras. O ocorrido fez com que o pai dos jovens rapazes sentisse necessidade de lhes ensinar tudo sobre o universo sobrenatural, desde técnicas de defesa até a forma ideal de matar demônios.</h4>
+</div>
+<div class="col-md-3">
+    <img src="img/theS.jpg" class="img-fluid" id="teste3" alt="">
+    <h4>Um boeing 777 chega no aeroporto JFK, em Nova York, e enquanto está a meio caminho de pousar, de repente para completamente. Todas as persianas são baixadas, e as luzes desligadas. Os canais de comunicação ficaram mudos, mas um alerta foi enviado ao Centro de Controle de Doenças (CDC). O Dr. Ephraim "Eph" Goodweather (Corey Stoll) recebe a chamada e embarca no avião. O que ele encontra faz seu sangue gelar.</h4>
+</div>
+</div>
+</div>
+
+<br> <br>
+<div class="container bg-dark">
+ 
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+  
+    <img src="img/mestre terrorS.jpg" class="img-fluid" id="teste3" alt="">
+    <h4>A Anchor Bay Entertainment reuniu pela primeira vez alguns dos maiores escritores e diretores de filmes de terror para trazer a série de antologia Mestres do Terror. São histórias fantásticas em episódios de aproximadamente 60 minutos.
+      A primeira temporada chegou ao mercado brasileiro como uma coleção de DVD, pela Paris Filmes, depois de ter sido apresentada com destaque no Festival de Turim, na Itália.</h4>
+</div>
+<div class="col-md-3">
+ 
+    <img src="img/DS.jpg" class="img-fluid" id="teste3" alt="">
+    <h4>Ao ser confrontado em um centro de interrogatório militar, um prisioneiro vira o jogo a seu favor e expõe os segredos mais vergonhosos de seus inquisidores. É possível lutar contra os demônios desse mundo. Mas e quanto aos que não pertencem a ele?</h4>
+</div>
+
+<div class="col-md-3">
+
+    <img src="img/S.jpg" class="img-fluid" id="teste3"  alt="">
+    <h4>Baseado no romance de Stephen King, este thriller psicológico segue um detetive e uma investigadora particular que investigam o caso do macabro assassinato de um menino e a sinistra força sobrenatural que o ronda.</h4>
+</div>
+<div class="col-md-3">
+    <img src="img/ST.jpg" class="img-fluid" id="teste3"  alt="">
+    <h4>A docussérie trará o mistério por trás dos 30 corpos encontrados numa área grande que ficou conhecida como “killing fields”, em League City no Texas.</h4>
+</div>
+
+</div>
+</div>
+
+<br> <br>
+<div class="container bg-dark">
+ 
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+
+    <img src="img/american.jpg" class="img-fluid" id="teste3" alt="">
+    <h4>ma série de antologias de episódios autônomos que investigam mitos, lendas e tradições de terror.</h4>
+</div>
+<div class="col-md-3">
+ 
+    <img src="img/sa.jpg" class="img-fluid" id="teste3" alt="">
+    <h4>Nesta antologia de terror, assassinos em série deixam um rastro de sangue conforme seus próximos alvos dão tudo por suas vidas.</h4>
+</div>
+
+<div class="col-md-3">
+    <img src="img/clube.jpg" class="img-fluid" id="teste3"  alt="">
+    <h4>Em uma clínica para adolescentes em estado terminal, integrantes de um clube secreto fazem um pacto sinistro: quem morrer primeiro terá que mandar um sinal do além.</h4>
+</div>
+<div class="col-md-3">
+   
+    <img src="img/origem.jpg" class="img-fluid" id="teste3"   alt="">
+    <h4>Desvende o mistério de uma cidade no centro dos EUA. Enquanto os moradores lutam para manter um senso de normalidade, eles também devem sobreviver às ameaças da floresta ao redor, incluindo as criaturas aterrorizantes que surgem quando o sol se põe.
+</h4>
+   
+</div>
+
+</div>
+</div>
+</div>
+
+<br> <br>
+<nav class="menu"> <!-- representação de ligação com outras paginas-->
+  <a href="#">Filmes.</a>
+  <a href="#">Séries</a>
+</body>
+</html>
